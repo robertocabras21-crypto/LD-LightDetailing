@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd light-detailing && npm install && npm run build",
+  "outputDirectory": "light-detailing/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
